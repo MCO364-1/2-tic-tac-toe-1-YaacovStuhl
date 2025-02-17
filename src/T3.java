@@ -76,4 +76,12 @@ public class T3 {
         }
         return isDraw;
     }
+
+    public Player[][] getBoard() {
+        return board;
+    }
+
+    public void setCurrentPlayer(Player currentPlayer) {
+        this.currentPlayer = currentPlayer;
+    }
 }
